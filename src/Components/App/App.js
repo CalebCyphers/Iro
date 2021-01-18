@@ -9,7 +9,6 @@ function App() {
     quoteText: "",
     quoteAuthor: "",
     quoteGenre: "",
-    __v: 0,
   });
   const [error, setError] = useState(false)
 
