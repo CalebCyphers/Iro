@@ -5,7 +5,7 @@ import Home from "../Home/Home"
 function App() {
   const [quote, setQuote] = useState("");
 
-  const getRandomQuote = () => {
+  const setDefaultQuote = () => {
 
   }
 
