@@ -3,6 +3,11 @@ import "./App.css";
 import Home from "../Home/Home"
 
 function App() {
+  const [quote, setQuote] = useState("");
+
+  const getRandomQuote = () => {
+
+  }
 
   return <div className="App">
     <Home />
