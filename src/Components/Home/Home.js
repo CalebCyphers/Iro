@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Home() {
+export default function Home({ quote }) {
   return (
-    <p>Hello World</p>
+    <p>{quote.quoteText}</p>
   );
 }
