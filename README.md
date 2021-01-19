@@ -1,8 +1,17 @@
 # Iro
+##### A simple website for quotes and journaling inspiration
+###### Anything in any way beautiful derives its beauty from itself and asks nothing beyond itself. Praise is no part of it, for nothing is made worse or better by praise. -Marcus Aurelius
+---
+## Table of Contents
+* [Introduction](#introduction)
+* [Features](#features)
+* [Resources](#resources)
+* [Contributors](#contributors)
+---
+## Introduction
+Iro is a simple project built by me (Caleb Cyphers) for my third module final project at the Turing School of Software and Design. The project was to be a simple website that reaches out to an [inspirational quotes API called 'QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/) and allows the user to find and save quotes that they like for use in journaling, scrapbooking, etc.
 
-Iro is a simple project built by me (Caleb Cyphers) for my third module final project at the Turing School of Software and Design. The project is to be a simple website that reaches out to an [inspirational quotes API called 'QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/) and allow the user to find and save quotes that they like for use in journaling, scrapbooking, etc.
-
-## Learning Goals
+### Learning Goals
 
 I'm taking this project as an opprotunity to re-affirm and streamline my workflows, all the way from the ground up. This will include:
 
@@ -12,24 +21,45 @@ I'm taking this project as an opprotunity to re-affirm and streamline my workflo
 - Consistent Github workflow
 - Consistent React architecture
 - Clean routes with react-router
-- Consistent Unit and Integration testing
+- Consistent TDD (Test Driven Development) using react-testing-library
+- Consistent TDD using Cypress
 - Design of clean, workable UI
-- Consistent accessibility integration
+- React Hooks
+- Prop destructuring
 
-## Foundational Planning
+### Setup
 
-The first step was to design a (very) basic UX flow for the app...
 
-<img src="https://imgur.com/hWkN8KK.jpg" alt="basic UX flow" width="350"/>
+## Features
 
-Next, I looked around at other websites that worked and broke them down for inspiration and analysis...
+#### General Site Features
+The site is a simple one. On the homepage, the user is greeted by a random quote from the api, along with four buttons.
 
-<img src="https://imgur.com/A46FPSq.jpg" alt="website wireframe study" width="350"/> <img src="https://imgur.com/w3mlQpF.jpg" alt="website wireframe study" width="350"/> <img src="https://imgur.com/XliW9gt.jpg" alt="website wireframe study" width="350"/>
+![homepage](https://imgur.com/0fDvCwp.gif)
 
-After this, the first draft of the wireframe...
+###### Saving a Quote
+ When a user clicks on a movie, that selected movie’s details are rendered and displayed. Details for each movie include a title, tagline, overview, release date,  rating, genre(s), bugdget, revenue, and duration. There are a few instances where a movie does not have data representing one of these eight fields. In this case, that specific stat is automatically filled in with "N/A".
+ 
+![saving a quote](https://imgur.com/p3rKfSw.gif)
 
-<img src="https://imgur.com/DwuOVIx.jpg" alt="iro wireframe first draft" width="350"/> <img src="https://imgur.com/S2o4gUb.jpg" alt="iro wireframe first draft 2" width="350"/>
 
-Next, I spoke with the app's target audience, a journaler, about how the woreframe felt to them, and after their feedback, made a new wireframe...
+#### Responsive Design
+There was a considerable amount of attention paid to building out the architecture for this app. This was met with the intended goal of making this site as responsive as possible. 
 
-<img src="https://imgur.com/2fqDLTQ.jpg" alt="iro wireframe second draft" width="350"/>
+![Responsive design](https://imgur.com/MrGqR2i.gif)
+
+#### Resources
+
+Quotes Api:
+- https://pprathameshmore.github.io/QuoteGarden/
+
+Testing:
+- https://testing-library.com/docs/react-testing-library/
+- https://www.cypress.io/
+
+## Contributors
+<img src="https://avatars2.githubusercontent.com/u/36242106?s=460&u=67cc9f62e495cec196581afa73f9110959c562cd&v=4" alt="Coding Dingus"
+ width="150" height="auto" style="float: left" />\
+**Caleb Cyphers**
+
+[GitHub Profile](https://github.com/CalebCyphers)
