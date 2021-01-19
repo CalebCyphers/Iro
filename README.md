@@ -1,13 +1,13 @@
 # Iro
 ##### A simple website for quotes and journaling inspiration
 ###### Anything in any way beautiful derives its beauty from itself and asks nothing beyond itself. Praise is no part of it, for nothing is made worse or better by praise. -Marcus Aurelius
----
+
 ## Table of Contents
 * [Introduction](#introduction)
 * [Features](#features)
 * [Resources](#resources)
 * [Contributors](#contributors)
----
+
 ## Introduction
 Iro is a simple project built by me (Caleb Cyphers) for my third module final project at the Turing School of Software and Design. The project was to be a simple website that reaches out to an [inspirational quotes API called 'QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/) and allows the user to find and save quotes that they like for use in journaling, scrapbooking, etc.
 
@@ -29,6 +29,12 @@ I'm taking this project as an opprotunity to re-affirm and streamline my workflo
 
 ### Setup
 
+The repo was made using create-react-app and has not been deployed, so in order to view it: 
+
+- Clone it down to a local machine, then `cd` into the repository and run `npm install` 
+- Once the installation is complete, run `npm start` to spin up the development server.
+- To view unit tests, run `npm test`
+- To view Integration Tests, run `npx cypress open`
 
 ## Features
 
