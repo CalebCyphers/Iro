@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export default function Home({ quote, saveQuote, newQuote }) {
   return (
@@ -9,4 +10,10 @@ export default function Home({ quote, saveQuote, newQuote }) {
       <button onClick={() => saveQuote(quote)}>Save</button>
     </section>
   );
+}
+
+Home.propTypes = {
+  quote: PropTypes.object,
+  saveQuote: PropTypes.func,
+  newQuote: PropTypes.func
 }
