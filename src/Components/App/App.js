@@ -40,7 +40,6 @@ function App() {
       <Switch>
         <Route exact path="/" render={() => <Home quote={quote} newQuote={setDefaultQuote} saveQuote={saveQuote}/>}/>
         <Route exact path="/myquotes" render={() => <MyQuotes savedQuotes={savedQuotes}/>} />
-        {/* <Route exact path="/newquote" render={} /> */}
       </Switch>
     </div>
   );
