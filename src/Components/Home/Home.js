@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Home({ quote, saveQuote, newQuote }) {
+  console.log(quote)
   return (
     <section className="Home-quote-display">
       <p>{quote.quoteText}</p>
