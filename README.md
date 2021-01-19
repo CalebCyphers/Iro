@@ -17,6 +17,7 @@ I'm taking this project as an opprotunity to re-affirm and streamline my workflo
 
 - Foundational planning
 - UX flow planning
+- Typechecking with PropTypes
 - Wireframing
 - Consistent Github workflow
 - Consistent React architecture
@@ -44,13 +45,13 @@ The site is a simple one. On the homepage, the user is greeted by a random quote
 ![homepage](https://imgur.com/0fDvCwp.gif)
 
 ###### Saving a Quote
- When a user clicks on a movie, that selected movie’s details are rendered and displayed. Details for each movie include a title, tagline, overview, release date,  rating, genre(s), bugdget, revenue, and duration. There are a few instances where a movie does not have data representing one of these eight fields. In this case, that specific stat is automatically filled in with "N/A".
+The 'My Quotes' page will show a small error handling message until the user saves a quote from the homepage. When the uer finds a quote they like, they can click the 'save' button on the homepage. The quote will now show up on the My Quotes page. Duplicate quotes will not be saved.
  
 ![saving a quote](https://imgur.com/p3rKfSw.gif)
 
 
 #### Responsive Design
-There was a considerable amount of attention paid to building out the architecture for this app. This was met with the intended goal of making this site as responsive as possible. 
+The CSS of this app is responsive and designed to allow it to be experienced on many shapes and sizes of screen.
 
 ![Responsive design](https://imgur.com/MrGqR2i.gif)
 
