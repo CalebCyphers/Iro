@@ -1,0 +1,32 @@
+.Home-quote-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Home-quote-display{
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.home-button{
+  color: #ffffff;
+  font-size: 1em;
+  background: none;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 3em;
+  margin: 0.5em;
+}
+
+.home-button:hover{
+  background-color: #fff;
+  color: #333;
+}
