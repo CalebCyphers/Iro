@@ -37,7 +37,7 @@ function App() {
       <NavBar />
       {error && <h1>There was a problem loading the quote. Try again later.</h1>}
       <Switch>
-        <Route exact path="/" render={() => <Home quote={quote} saveQuote={saveQuote}/>}/>
+        <Route exact path="/" render={() => <Home quote={quote} newQuote={setDefaultQuote} saveQuote={saveQuote}/>}/>
         <Route exact path="/myquotes" render={() => <MyQuotes savedQuotes={savedQuotes}/>} />
         {/* <Route exact path="/newquote" render={} /> */}
       </Switch>
