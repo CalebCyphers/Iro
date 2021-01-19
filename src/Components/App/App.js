@@ -23,7 +23,8 @@ function App() {
   };
 
   const saveQuote = (newQuote) => {
-    setSavedQuotes([...savedQuotes, newQuote])
+    const savedQuotesWithoutRepeats = savedQuotes.filter(quote => quote._id !== newQuote._id)
+    setSavedQuotes([...savedQuotesWithoutRepeats, newQuote])
   }
 
   useEffect(() => {
