@@ -1,5 +1,6 @@
 import React from 'react'
 import QuoteCard from '../QuoteCard/QuoteCard'
+import PropTypes from 'prop-types';
 
 export default function MyQuotes({ savedQuotes }) {
 
@@ -13,4 +14,8 @@ export default function MyQuotes({ savedQuotes }) {
       {buildQuoteCards(savedQuotes)}
     </section>
   )
+}
+
+MyQuotes.propTypes = {
+  savedQuotes: PropTypes.array
 }
