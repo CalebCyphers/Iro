@@ -9,7 +9,7 @@
 * [Contributors](#contributors)
 
 ## Introduction
-Iro is a simple project built by me (Caleb Cyphers) for my third module final project at the Turing School of Software and Design. The project was to be a simple website that reaches out to an [inspirational quotes API called 'QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/) and allows the user to find and save quotes that they like for use in journaling, scrapbooking, etc.
+Iro is a simple project built by me (Caleb Cyphers) for my third module final project at the Turing School of Software and Design. The project was to be a simple website that reaches out to an [inspirational quotes API called 'QuoteGarden'](https://pprathameshmore.github.io/QuoteGarden/) and allows the user to find and save quotes that they like for use in journaling, scrapbooking, etc.
 
 ### Learning Goals
 
