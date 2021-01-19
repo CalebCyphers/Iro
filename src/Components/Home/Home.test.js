@@ -1,7 +1,7 @@
 import React from "react";
 import { screen, render } from "@testing-library/react";
 import "@testing-library/jest-dom"
-import { userEvent } from "@testing-library/user-event";
+import userEvent from "@testing-library/user-event";
 import Home from "./Home.js";
 
 const mockSetDefaultQuote = jest.fn();
@@ -66,9 +66,22 @@ describe("Home", () => {
       );
       const saveButton = screen.getByText("Save")
 
-      userEvent().click(saveButton)
+      userEvent.click(saveButton)
 
       expect(mockSaveQuote).toHaveBeenCalled()
   })
-  userEvent()
+
+  it("Should call a function when the Next button is clicked", () => {
+    render(<Home
+        quote={mockQuote}
+        newQuote={mockSetDefaultQuote}
+        saveQuote={mockSaveQuote}
+      />
+      );
+      const nextButton = screen.getByText("Next")
+
+      userEvent.click(nextButton)
+
+      expect(mockSetDefaultQuote).toHaveBeenCalled()
+  })
 });
