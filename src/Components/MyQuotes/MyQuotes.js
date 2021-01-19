@@ -1,6 +1,7 @@
 import React from 'react'
 import QuoteCard from '../QuoteCard/QuoteCard'
 import PropTypes from 'prop-types';
+import './MyQuotes.css'
 
 export default function MyQuotes({ savedQuotes }) {
 
@@ -9,7 +10,7 @@ export default function MyQuotes({ savedQuotes }) {
   }
 
   return (
-    <section>
+    <section className="quotes-section">
       {!savedQuotes[0] && <p>You haven't saved any quotes... once you do, they'll show up here.</p>}
       {buildQuoteCards(savedQuotes)}
     </section>

@@ -1,0 +1,12 @@
+.quotes-section{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+}
