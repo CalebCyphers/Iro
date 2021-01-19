@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import './QuoteCard.css'
 
 export default function QuoteCard({ quote }) {
   return (
