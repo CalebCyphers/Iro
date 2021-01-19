@@ -5,6 +5,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  font-size: 2em;
 }
 
 .nav-button{
