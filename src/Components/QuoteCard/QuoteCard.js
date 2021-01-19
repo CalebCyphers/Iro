@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export default function QuoteCard({ quote }) {
   return (
@@ -7,4 +8,8 @@ export default function QuoteCard({ quote }) {
       <p>-{quote.quoteAuthor}</p>
     </div>
   )
+}
+
+QuoteCard.propTypes = {
+  quote: PropTypes.object
 }
